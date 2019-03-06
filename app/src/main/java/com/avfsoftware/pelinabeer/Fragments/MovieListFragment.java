@@ -98,7 +98,7 @@ public class MovieListFragment extends Fragment {
             String pastDated = placePastdate();
             Log.v("**********TIMEDATE: ", pastDated);
             HJsonParser httpJsonParser = new HJsonParser();
-            apiArguments.put("api_key", "637ec0d57ac808d5fc04045119ff1851");
+            apiArguments.put("api_key", "Place your API Key Here");
             apiArguments.put("sort_by", "vote_average.desc");
             apiArguments.put("primary_release_date.gte", pastDated);
             apiArguments.put("primary_release_date.lte", todayDate);
